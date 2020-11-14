@@ -1,5 +1,5 @@
 # docker-laravel
-## テスト用 Laravel6 コンテナ
+## ローカル開発用 Laravel6 コンテナ
 ##  構築&起動
 ```
 $ git clone git@github.com:takujiozaki/docker-laravel.git
@@ -22,3 +22,6 @@ $ docker-compose down
 ```
 $ docker-compose down --rmi all --volumes --remove-orphans
 ```
+
+## 参考にした記事
+https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
