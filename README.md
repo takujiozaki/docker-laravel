@@ -7,6 +7,9 @@ $ cd docker-laravel
 $ docker-compose up -d --build
 ```
 
+## 動作 アドレス
+http://127.0.0.1:10080/
+
 ## コンテナの状況を確認
 ```
 $ docker-compose ps
@@ -19,9 +22,3 @@ $ docker-compose down
 ```
 $ docker-compose down --rmi all --volumes --remove-orphans
 ```
-
-
-
-
-
-動作 アドレス:http://127.0.0.1:10080/
