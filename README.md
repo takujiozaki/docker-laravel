@@ -7,10 +7,20 @@ $ cd docker-laravel
 $ docker-compose up -d --build
 ```
 
+## コンテナの状況を確認
+```
+$ docker-compose ps
+```
 ## 停止
 ```
-docker-compose down
+$ docker-compose down
 ```
+## 削除
+```
+$ docker-compose down --rmi all --volumes --remove-orphans
+```
+
+
 
 
 
