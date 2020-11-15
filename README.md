@@ -2,9 +2,21 @@
 ## ローカル開発用 Laravel6 コンテナ
 ##  構築&起動
 ```
-$ git clone git@github.com:takujiozaki/docker-laravel.git
-$ cd docker-laravel
+$ git clone git@github.com:takujiozaki/docker-laravel.git project_name
+$ cd project_name
 $ docker-compose up -d --build
+```
+コンテナに入り、composerをインストール
+```
+$ docker-compose exec app bash
+# cd laravel/
+# composer install
+```
+.envを編集  
+データベース関連を修正
+
+```
+# php artisan key:generate
 ```
 
 ## 動作 アドレス
