@@ -35,5 +35,24 @@ $ docker-compose down
 $ docker-compose down --rmi all --volumes --remove-orphans
 ```
 
+## validation 日本語化
+```
+# php -r "copy('https://readouble.com/laravel/6.x/ja/install-ja-lang-files.php', 'install-ja-lang.php');"
+# php -f install-ja-lang.php
+# php -r "unlink('install-ja-lang.php');"
+```
+
+## 認証
+```
+# composer require laravel/ui 1.*
+# php artisan ui vue --auth
+//必要ならnpmをインストール
+# apt update
+# apt install nodejs
+# npm install
+# npm run dev
+
+
 ## 参考にした記事
-https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
+https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4  
+https://qiita.com/ucan-lab/items/bd0d6f6449602072cb87
