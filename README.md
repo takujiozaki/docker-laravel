@@ -48,8 +48,7 @@ $ docker-compose down --rmi all --volumes --remove-orphans
 # php artisan ui vue --auth
 //必要ならnpmをインストール
 # apt update
-# apt install nodejs
-# npm install
+# apt install nodejs npm
 # npm run dev
 
 
